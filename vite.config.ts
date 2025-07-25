@@ -9,7 +9,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['react-router-dom'],
+      external: ['react-router-dom','react-chartjs-2'],
     },
   },
 });
